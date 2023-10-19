@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    line-height: 100px;
+    text-shadow: 3px 5px 5px white;
+    font-size: 50px;
+}
+
+section {
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    color: darkgray;
+    background-color: black;
+    font-weight: 100;
+}
+
+p {
+    background-color: white;
+    margin-left: 3px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 0.4em;
+}
+
+#Nome {
+    background-color: white;
+    color: blue;
+}
+
+#Hexadecimal {
+    background-color: white;
+    color: #808000;
+}
+
+#Abreviado {
+    background-color: white;
+    color: #960;
+}
+
+#RGB {
+    background-color: white;
+    color: rgb(46, 139, 87);
+}
+
+#HSL {
+    background-color: white;
+    color: hsl(300, 100%, 20%);
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Aula07</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulário</h1>
+    </header>
+
+    <article>
+        <p>
+            Responda:<br />
+        <form action="#">
+
+            <fieldset>
+                <label for="cNome">Nome Completo:</label><br />
+                <input autocomplete="off" type="text" size=50 name="tNome" id="cNome" required="required" />
+                <br /><br />
+                <input type="submit" value="Enviar" /><br /><br />
+
+                gênero:<br />
+                <input type="radio" name="tipo" id="Masculino" value="M" />
+                <label for="Masculino">Masculino</label><br />
+                <input type="radio" name="tipo" id="Feminino" value="F" />
+                <label for="Feminino">Feminino</label><br />
+                <input type="radio" name="tipo" id="outros" value="O" />
+                <label for="outros">Outros</label><br /><br />
+
+                Estilos Musicais preferidos:<br />
+                <input type="checkbox" id="Estilo1" name="Estilo1" value="Funk" />
+                <label for="Estilo1"> Funk</label><br />
+                <input type="checkbox" id="Estilo2" name="Estilo2" value="Hip-Hop" />
+                <label for="Estilo2"> Hip-Hop</label><br />
+                <input type="checkbox" id="Estilo3" name="Estilo3" value="Sertanejo" />
+                <label for="Estilo3"> Sertanejo</label><br />
+                <input type="checkbox" id="Estilo4" name="Estilo4" value="rock" />
+                <label for="Estilo4"> rock</label> <br /><br />
+
+                <label for="Cor">Selecione sua cor favorita:</label>
+                <select id="Cor" name="Cor">
+                    <option value="Azul">Azul</option>
+                    <option value="Amerelo">Amerelo</option>
+                    <option value="Vermelho">Vermelho</option>
+                </select><br /><br />
+
+                <label for="cCid">Escolha a Unidade IOS mais próxima:</label>
+                <input list="cidade" name="tCid" id="cCid" placeholder="Unidade IOS" />
+                <datalist id="cidade">
+                    <option value="Santana"></option>
+                    <option value="Itaquera"></option>
+                    <option value="Jardim Ângela"></option>
+                    <option value="Santo Amaro"></option>
+                </datalist>
+            </fieldset>
+        </form>
+        </p>
+    </article>
+
+</body>
+
+</html>
