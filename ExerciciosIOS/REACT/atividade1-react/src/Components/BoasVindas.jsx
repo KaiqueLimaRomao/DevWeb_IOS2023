@@ -4,16 +4,16 @@ import PropTypes from 'prop-types';
 const BoasVindas = (props) => {
   return (
     <div>
-        <section>
-            <h1 style={{color: 'blue'}}>{props.nome}</h1>
-            <p>Você é uma pessoal legal!</p>
-        </section>
+         <section style={{ textAlign: 'center' }}>
+      <h1>{nome}!</h1>
+      <p style={{ color: 'blue' }}>Seja bem-vindo ao mundo do React.</p>
+    </section>
     </div>
   )
 }
 
 BoasVindas.defaultProps = {
-    nome: 'Nome Padrão',
+    nome: 'Bem-vindo',
 };
 BoasVindas.propTypes = {
   nome: PropTypes.string,
